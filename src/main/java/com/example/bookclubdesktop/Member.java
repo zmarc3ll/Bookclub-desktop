@@ -2,14 +2,14 @@ package com.example.bookclubdesktop;
 
 import java.time.LocalDate;
 
-public class Members {
+public class Member {
   private int id;
   private String name;
   private String gender;
   private LocalDate birth_date;
   private boolean banned;
 
-  public Members(int id, String name, String gender, LocalDate birth_date, boolean banned) {
+  public Member(int id, String name, String gender, LocalDate birth_date, boolean banned) {
     this.id = id;
     this.name = name;
     this.gender = gender;
@@ -36,5 +36,4 @@ public class Members {
   public boolean isBanned() {
     return banned;
   }
-
 }
